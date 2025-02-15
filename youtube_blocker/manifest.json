@@ -1,6 +1,6 @@
 {
-  "name": "Youtube Blocker",
-  "description": "Extension prevent yourself to watch Youtube video :)",
+  "name": "YouTube Blocker",
+  "description": "Extension prevent yourself to watch YouTube video :)",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
