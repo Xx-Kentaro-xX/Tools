@@ -1,0 +1,17 @@
+{
+  "name": "Youtube Blocker",
+  "description": "Extension prevent yourself to watch Youtube video :)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "32": "images/icon_32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["block_script.js"]
+    }
+  ]
+}
